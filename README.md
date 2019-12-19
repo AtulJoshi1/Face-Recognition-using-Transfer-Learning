@@ -8,8 +8,8 @@ FaceNet is a one-shot model, that directly learns a mapping from face images to 
 
 ## PREPARING DATA ##
 ### Training Data ### 
- Images of 6 persons including me (4 images each) were loaded using matplotlib
- Embedder from FaceNet is used to get the final feature vector.
+ Images of 6 persons including me (4 images each) were loaded using matplotlib.</br>
+ Embedder from FaceNet is used to get the final feature vector.</br>
  Labels for the training data were given manually as an array with values 1,2,3,4,5,6 representing 6 different persons.
  
  ### Testing Data ###
