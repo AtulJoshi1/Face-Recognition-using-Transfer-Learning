@@ -19,9 +19,6 @@ FaceNet is a one-shot model, that directly learns a mapping from face images to 
  ### Model ###
  On the extracted feature vector, a multiclass logistic regression was applied to learn a classification model.
  
- **cost function** : Cost(hθ(x),y)=−ylog(hθ(x))−(1−y)log(1−hθ(x)), 
- where   y = y_true and
-         hθ(x) =y_predicted .
  ### Prediction ###
  In case the prediction probability is lesser than a given threshold, we say the image is of some unknown 'other' person than    those 6 in training data, else a class number(1-6) is returned as output.
  The test data was applied on the model and a score of 1.0 (i.e 100%) was observed on the test data.
